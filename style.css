@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, black, rgb(163, 182, 241));
+}
+div{
+  margin-top: 100px;
+  margin-left:40px ;
+  margin-right: 40px;
+  width: 30%;
+  border: 5px solid white;
+  border-radius: 40px;
+
+  box: 0 0 20px white;
+  transition-duration: 1s;
+  transition: 2s;
+}
+p{
+  text-shadow: 0 0 10px white;
+  background-color: white;
+}
+div:hover{
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: lightblue;
+  text-shadow: 0 0 10px white;
+  transform: rotete(-180deg);
+}
